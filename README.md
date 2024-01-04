@@ -7,7 +7,7 @@
 
 Example:
 
-For a list of words:
+Filter words:
 - alligator
 - robbery
 - kindness
