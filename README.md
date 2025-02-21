@@ -5,7 +5,24 @@
 - Users can set up sensitive words, such as names, (using the sensitive.csv) to censor in addition to [Surge AI](https://github.com/surge-ai/profanity) profanity text dataset.
 - OpenCV is used to capture frames and apply a blur filter to flagged text regions.
 
-Example:
+
+
+Example 1:
+Filter Words:
+- Angel
+- Juan
+- in
+- investigation
+- ass
+
+Detection boxes:
+![detbox](output/op_det_bbox_img.jpg)
+
+
+
+
+
+Example 2:
 
 Filter words:
 - alligator
