@@ -8,25 +8,25 @@
 
 
 ## Example 1:
-Filter Words:
+### Filter Words:
 - Angel
 - Juan
 - in
 - investigation
 - ass
 
-Detection boxes:
+### Detection boxes:
 Detects all the text in the frame
 ![detbox](output/op_det_bbox_img.jpg)
 
-Extracting Text from the detected text boxes:
+### Extracting Text from the detected text boxes:
 ![text](output/rec_img.jpg)
 
-Flagging the text matching filter text:
+### Flagging the text matching filter text:
 Note: 'Classroom' correctly does not get flagged despite containing 'ass' because of levenstein distance algorithm to avoid false positives.
 ![flag](output/op_blur_bbox_img.jpg)
 
-Blurring the flagged text:
+### Blurring the flagged text:
 ![blur](output/op_img.jpg)
 
 
@@ -35,7 +35,7 @@ Blurring the flagged text:
 
 
 
-Example 2:
+## Example 2:
 
 Filter words:
 - alligator
